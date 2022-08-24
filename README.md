@@ -1,28 +1,28 @@
 # TDD with Mocha & Chai
 Lighthous labs Web-flex module 1 w3 lecture on test driven development intro to mocha &amp; chai
 
-[lecture repo](https://github.com/ermurray/tdd-mocha-chai) | [lecture recording]()
+[lecture repo](https://github.com/ermurray/tdd-mocha-chai) | [lecture recording](https://vimeo.com/742494611/98fcbeb19e)
 
 # Topics
 1. **Improve Code Quality*
-    - [ ] what? why? how?
-    - [ ] manual vrs automated what??
+    - [x] what? why? how?
+    - [x] manual vrs automated what??
     - [ ] errors
 
 2. **TDD**
-    -  [ ] unit, integration, end to end, UAT 
-    -  [ ] what is tdd?
-    -  [ ] why do we use tdd
-    -  [ ] what are "Assertions" and assertion libraries
-    -  [ ] testing frameworks/ test runner
+    -  [x] unit, integration, end to end, UAT 
+    -  [x] what is tdd?
+    -  [x] why do we use tdd
+    -  [x] what are "Assertions" and assertion libraries
+    -  [x] testing frameworks/ test runner
 
 3. **npm**
-    -  [ ] package.json
-    -  [ ] basic overview
+    -  [x] package.json
+    -  [x] basic overview
 
 4. **Mocha & Chai**
-    -  [ ] examples & work flow 
-    -  [ ] TDD approach to *vowels* kata
+    -  [x] examples & work flow 
+    -  [x] TDD approach to *vowels* kata
     -  [ ] TDD approach to *repeating numbers* kata
 
 # Notes
