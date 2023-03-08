@@ -1,0 +1,23 @@
+{
+  "name": "tdd-mocha-chai",
+  "version": "1.0.0",
+  "description": "'lecture stuff'",
+  "main": "import.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ermurray/tdd-mocha-chai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ermurray/tdd-mocha-chai/issues"
+  },
+  "homepage": "https://github.com/ermurray/tdd-mocha-chai#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
