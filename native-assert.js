@@ -1,10 +1,10 @@
-// const assert = require('assert').strict;
+const assert = require('assert').strict
+const { sumTwoNumber, myFunc } = require('./review'); 
 
-// assert.deepEqual([[[1, 2, 3]], 4, 5], [[[1, 2, '3']], 4, 5]);
-
-const sayHello = (name) => {
-  return `Hello, ${name}`
-}
+assert.deepEqual([[[1, 2, 3]], 4, 5], [[[1, 2, 3]], 4, 5]);
 
 
-console.assert( sayHello("Eric") === 'Hello, Eric!');
+console.log(sumTwoNumber(1,2));
+console.log(myFunc());
+
+assert.equal(sumTwoNumber(1,2), 2);

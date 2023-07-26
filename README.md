@@ -5,49 +5,59 @@ Lighthous labs Web-flex module 1 w3 lecture on test driven development intro to 
 
 # Topics
 1. **Improve Code Quality*
-    - [x] what? why? how?
-    - [x] manual vrs automated what??
+    - [ ] what? why? how?
+    - [ ] manual vrs automated what??
     - [ ] errors
 
 2. **TDD**
-    -  [x] unit, integration, end to end, UAT 
-    -  [x] what is tdd?
-    -  [x] why do we use tdd
-    -  [x] what are "Assertions" and assertion libraries
-    -  [x] testing frameworks/ test runner
+    -  [ ] unit, integration, end to end, UAT 
+    -  [ ] what is tdd?
+    -  [ ] why do we use tdd
+    -  [ ] what are "Assertions" and assertion libraries
+    -  [ ] testing frameworks/ test runner
 
 3. **npm**
-    -  [x] package.json
-    -  [x] basic overview
+    -  [ ] package.json
+    -  [ ] basic overview
 
 4. **Mocha & Chai**
-    -  [x] examples & work flow 
-    -  [x] TDD approach to *vowels* kata
-    -  [ ] TDD approach to *repeating numbers* kata
+    -  [ ] examples & work flow 
+    -  [ ] TDD approach to *vowels* kata
+    -  [ ] TDD approach to *repeating numbers* kata (time dependant)
 
 # Notes
 
 1. **Improve Code Quality**
     - ways to improve code quality:
-      - refactor
+      - refactoring
+      - testing
+      - re-use (DRY) "Don't repeat yourself" rule of three
+      - clean clode
+      - self documented code. and or good comments in code ()
+      - simply branching code
+      - bug test search out edge cases
       - linter
-      - comment or self documenting code
-      - keep code DRY 
-      - bug testing
-    - ways to test 
-      - use console.assert(), console.error() etc.
-      - function to test
+      - error logging
+    - ways to test our code
+      - write assertions
+      - console.log() and other console methods .....
       - UAT testing 
-      - manual testing 
-         * pros: make sure it works, use different workflows or use case
-         * cons: human error, in-consistent, slow, lots of time to test
+      - unit testing
+      - integration testing
+      - E2E testing
+      - Regression test
+      - manual testing
+        - pros: experience it as a user, test diff. workflows or use-case, test how the app is used
+        - cons: time consuming, slow, not repeatable, human error
+        - console.log(), console.assert(), console.error() etc.
+        - click through app
+        - driver code and run functions
+        - could test with different timeOut/ delay
+        - test for edge cases
       - automated testing
-        * pros: speed (after setup), consistent, create unit tests, Force more DRY code
-        * cons: false positive, time on setup,  
-        - build some tests to use console.assert()
-        - test frameworks / libraries
-
-    
-
+        - pros: speed, repeatable, saves debugging, force more dry modular code
+        - cons: speed (takes time to setup), false postives
 2. **TDD**
     - TDD is...
+     - Test Driven Development
+     -

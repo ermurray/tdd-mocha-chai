@@ -1,36 +1,35 @@
-// const assert = require('assert');
 const chai = require('chai');
 const { numberOfVowels } = require('../src/vowels');
 
 const { assert, expect } = chai;
 
-
-describe('Given function numberofVowels', () =>{
-  xit('should return 3 when given the word "orange" is used', () => {
+describe('Given the Function numberOfVowels', () => {
+  it('should return 3 when given the word "orange"', () => {
     const data = 'orange';
     const actual = numberOfVowels(data);
-    
-    expect(actual).to.deepEqual(3);
+
+    expect(actual).to.equal(3);
   });
 
-  it('if data is not a string return "bad input, expected string"', () => {
+  it('should return "bad input" if data is not a string', () =>{
     const data = 2;
     const actual = numberOfVowels(data);
+    const expectedOutput = 'bad input';
 
-    assert.equal(actual, 'bad input, expected string')
+    assert.equal(actual, expectedOutput);
   });
 
-  it('should return type number if valid input', () => {
-    const data = 'orange';
+  it('should return type number if a valid input', () => {
+    const data = 'apple';
     const actual = numberOfVowels(data);
 
     assert.typeOf(actual, 'number');
-  })
+  });
 
-  it('should return 0 if no vowels found', () => {
-    const data = 'ccccc';
+  it('should return 0 if no vowels are found', () => {
+    const data = 'ccccc'
     const actual = numberOfVowels(data);
 
-    assert.equal(actual, 0)
+    assert.equal(actual, 0);
   });
 });

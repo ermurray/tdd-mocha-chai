@@ -1,20 +1,20 @@
-const arr1 =  [1, 2, 3];
-const arr2 = arr1.slice(0);
-const arr3 = [...arr1]
 
-console.log('arr1', arr1);
+const myFunc = (arg) => {
+  const localVar = 2;
+  if(arg) {
+    return true
+  }
+  
+  return localVar;
+};
 
-arr1.push(2);
-
-console.log('arr1 after push:', arr1);
-
-console.log('arr2', arr2);
-
-console.log('arr3', arr3);
+// console.log("I assert that this will return true", myFunc('hello'));
 
 
-function sumTwoNumbers(num1,num2) {
-  return num1 + num2
-}
+const sumTwoNumber = (num1, num2) => {
+  return num1 +num2;
+};
 
-module.exports = { sumTwoNumbers };
+// console.assert(sumTwoNumber(1,2) !== 3)
+
+module.exports = { sumTwoNumber, myFunc };

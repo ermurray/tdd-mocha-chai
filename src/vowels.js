@@ -1,20 +1,19 @@
 const numberOfVowels = function(data) {
   if(typeof data !== 'string') {
-    return 'bad input, expected string';
+    return 'bad input';
   }
 
-  let result = 0;
-  vowels = ['a', 'e', 'i', 'o' ,'u'];
+  const vowels = ['a', 'e', 'i', 'o', 'u'];
   const splitData = data.split('');
 
-    splitData.forEach((char) => {
-      if (vowels.includes(char)) {
-        result += 1
-      }
-    }); 
-
-  return result
-}
+  return splitData.reduce((acc, curr) => {
+    if(vowels.includes(curr)) {
+      return acc += 1
+    }
+    
+    return acc
+  }, 0);
+};
 
 
 
